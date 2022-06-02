@@ -3,6 +3,8 @@
 //
 
 .card {
+  @extend .text-info !optional;
+  @extend .bg-dark !optional;
   position: relative;
   display: flex;
   flex-direction: column;
